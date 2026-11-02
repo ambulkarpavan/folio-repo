@@ -1,0 +1,127 @@
+
+/* Basic styling for the complete website */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+/* Header styling */
+
+header {
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* Navigation styling */
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #16a6a1;
+}
+
+/* Common section styling */
+
+section {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Section headings */
+
+h2 {
+    color: #102a43;
+    border-bottom: 2px solid #16a6a1;
+    padding-bottom: 10px;
+}
+
+/* Skills styling */
+
+.skills span {
+    display: inline-block;
+    background-color: #16a6a1;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+/* Project styling */
+
+.project {
+    background-color: #f4f7fb;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #16a6a1;
+    border-radius: 5px;
+}
+
+.project h3 {
+    color: #102a43;
+}
+
+/* Contact styling */
+
+#contact a {
+    color: #16a6a1;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Footer styling */
+
+footer {
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Mobile responsive design */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    section {
+        margin: 12px;
+        padding: 20px;
+    }
+
+    .skills span {
+        margin: 5px;
+    }
+}
